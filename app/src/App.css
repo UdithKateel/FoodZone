@@ -1,0 +1,27 @@
+/* In App.css or global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%; /* Ensure html and body take full height */
+    font-family: "Inter";
+ background: linear-gradient(90deg, #000000, #434343, #000000);
+
+}
+
+.buttonsss {
+  background:transparent;
+
+    display: flex;
+    gap: 20px;
+    margin: 0; /* Ensure there's no margin */
+    align-items: center;
+    justify-content: center;
+    border: none; /* Ensure there's no border */
+    padding: 0; /* Ensure there's no padding */
+}
+
+
